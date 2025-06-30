@@ -62,7 +62,6 @@ a{
 
 .col-2 img{
     max-width: 100%;
-    padding-top: 100px;
 }
 
 .row{
@@ -75,6 +74,10 @@ a{
 .main-row{
     background: linear-gradient(#ffd6d6, #fff);
     text-align: center;
+}
+
+.main-row img{
+    padding-top: 100px;
 }
 
 .small-container{
@@ -198,5 +201,13 @@ a{
         max-height: 400px;
     }
 
-    
+    .main-row img{
+        padding-top: 25px;
+    }
+
+    .main-row h2{
+        padding-bottom: 10px;
+    }
+
+
 }
