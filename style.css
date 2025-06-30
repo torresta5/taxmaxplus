@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.header{
+    background-color: #FAF5EF;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h2{
+    font-size: 45px;
+}
+
+p{
+    font-size: 15px;
+    color: #555;
+}
+
+a{
+    font-size: 15px;
+    color: #555;
+    text-decoration: none;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding-top: 100px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-row{
+    background: linear-gradient(#ffd6d6, #fff);
+    text-align: center;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-2 h3{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px auto 20px;
+    position: relative;
+    line-height: 60px;
+}
+
+.col-2 h3::after{
+    content: '';
+    background: red;
+    width: 100px;
+    height: 5px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.col-2 ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.col-2 ul li{
+    padding: 2px 0;
+    font-size: 16px;
+}
+
+.col-2 p{
+    padding: 2px 0;
+    font-size: 16px;
+}
+
+#Location{
+    text-align: center;
+    font-size: 20px;
+}
+
+#Operation{
+    align-items: flex-start;
+}
+
+#Address{
+    padding-top: 5px;
+    display: block;
+    margin: auto;
+}
+
+.gel-section{
+    background: linear-gradient(#fff, #ffd6d6);
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.gel-section img{
+    max-width: 40%;
+    border-radius: 50%;
+    margin: 40px;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.team{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.team h2{
+    font-size: 40px;
+    margin: 20px 20px;
+}
+
+.team p{
+    font-size: 16px;
+    color: #555;
+    font-weight: 500;
+}
+
+.events{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.events h1{
+    font-size: 50px;
+}
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    border-top: solid red 5px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
