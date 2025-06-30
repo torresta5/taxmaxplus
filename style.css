@@ -191,3 +191,10 @@ a{
     min-width: 250px;
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 800px){
+    .events img{
+        max-width: 300px;
+        max-height: 400px;
+    }
+}
