@@ -69,6 +69,7 @@ a{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
 }
 
 .main-row{
@@ -193,6 +194,10 @@ a{
 .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
     min-width: 250px;
     margin-bottom: 20px;
+}
+
+.footer i{
+    font-size: 50px;
 }
 
 @media only screen and (max-width: 800px){
